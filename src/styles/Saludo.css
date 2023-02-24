@@ -1,0 +1,13 @@
+h1{
+   color: #fff; 
+}
+
+.logo{
+    height: 300px;
+    width: 300px;
+    margin: 100px 0;
+}
+
+.content-lorem{
+    text-align: center;
+}
