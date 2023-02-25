@@ -1,6 +1,7 @@
 .alumno{
-    display: felx;
     min-width: 100px;
+    font-size: 1.1em;
+    display: felx;
     padding: 5px;
     text-align: center;
     border-radius: 10px;
@@ -10,4 +11,7 @@
 li {
     list-style: none;
     height: auto;
+}
+.li-edad{
+    margin: 5px;
 }

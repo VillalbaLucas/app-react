@@ -6,7 +6,7 @@ function Alumnos(props) {
     <div className='alumno'>
         <li>{props.nombre}</li>
         <li>{props.apellido}</li>
-        <li>{props.edad}</li>
+        <li className='li-edad'>{props.edad}<b> años.</b></li>
     </div>
   );
 }
