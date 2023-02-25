@@ -1,11 +1,14 @@
 import React from 'react';
+import '../styles/Alumnos.css';
 
-function Alumnos() {
-    return ( 
-        <div>
-            <h3>Plantilla de Alumnos</h3>
-        </div>
-     );
+function Alumnos(props) {
+  return (
+    <div className='alumno'>
+        <li>{props.nombre}</li>
+        <li>{props.apellido}</li>
+        <li>{props.edad}</li>
+    </div>
+  );
 }
 
 export default Alumnos;

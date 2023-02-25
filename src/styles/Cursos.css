@@ -1,0 +1,10 @@
+.curso{
+    max-width: 20em;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px #aaa;
+}
+h4 {
+    text-align: center;
+    margin: 10px;
+}

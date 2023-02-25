@@ -1,0 +1,13 @@
+.alumno{
+    display: felx;
+    min-width: 100px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px #aaa;
+}
+
+li {
+    list-style: none;
+    height: auto;
+}
