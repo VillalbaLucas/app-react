@@ -1,10 +1,19 @@
 .curso{
     max-width: 20em;
-    padding: 5px;
+    max-height: 10em;
+    padding: 5px 10px;
     border-radius: 10px;
     box-shadow: 1px 2px 3px #aaa;
 }
 h4 {
     text-align: center;
-    margin: 10px;
+    font-size: 1.2rem;
+    margin: 1.2rem 0;
+
+}
+.curso-main{
+    margin: 1.2rem 0;
+}
+.curso-ver{
+    text-align: center;
 }
