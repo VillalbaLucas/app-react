@@ -1,12 +1,12 @@
 import React from 'react';
 import '../styles/Alumnos.css';
 
-function Alumnos(props) {
+function Alumnos( {nombre, apellido, edad} ) {
   return (
     <div className='alumno'>
-        <li>{props.nombre}</li>
-        <li>{props.apellido}</li>
-        <li className='li-edad'>{props.edad}<b> años.</b></li>
+      <li>{nombre}</li>
+      <li>{apellido}</li>
+      <li className='li-edad'>{edad}<b> años.</b></li>
     </div>
   );
 }

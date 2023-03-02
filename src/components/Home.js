@@ -6,8 +6,8 @@ function Home(){
   return (
     <div className='content'>
       <header className='titulo'>
-        <h1>Escuela IT!</h1>
-        <p className='content-descripcion'>!Estudia a distancia las carreras mas importantes de la actualidad!</p>
+        <h1>Escuel<b>IT</b>a!</h1>
+        <p className='content-descripcion'>!Estudia cursos sobre el sector tecnologico en la comodidad de tu casa!</p>
       </header>
       <section className='content-cursos'>
           <Cursos

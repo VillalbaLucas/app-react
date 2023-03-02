@@ -1,12 +1,12 @@
 import React from 'react';
 import '../styles/Cursos.css';
 
-function Cursos(props) {
+function Cursos( {nombre, descripcion} ) {
   return (
     <div className='curso'>
       <main className='curso-main'>
-        <h4>{props.nombre}</h4>
-        <p>{props.descripcion}</p>
+        <h4>{nombre}</h4>
+        <p>{descripcion}</p>
       </main>
       <div className='curso-ver'>
         <a href="#">Ver mas</a>

@@ -4,15 +4,20 @@
     height: 100vh;
 }
 .titulo{
-    margin: 2.5rem 0;
+    padding: 2.5rem 0;
+    margin-bottom: 2rem;
     text-align: center;
+    background-color: #c1eaff;
 }
 h1{
     font-size: 3.5em;
-    background-color: #ddd;
+    background-color: transparent;
+}
+b{
+    background-color: transparent;
 }
 .content-descripcion{
-    background-color: #ddd;
+    background-color: transparent;
     margin: 1.5rem 0;
     font-size: 20px;
 }
