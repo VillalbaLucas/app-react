@@ -1,19 +1,21 @@
-.curso{
-    max-width: 20em;
-    max-height: 10em;
-    padding: 5px 10px;
-    border-radius: 10px;
-    box-shadow: 1px 2px 3px #aaa;
-}
 h4 {
     text-align: center;
-    font-size: 1.2rem;
-    margin: 1.2rem 0;
+    margin: 5px;
+    border-bottom: 1px solid black;
+}
+p {
+    height: 80%;
+}
+.curso{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    max-width: 25rem;
+    min-width: 450px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px #aaa;
+    box-sizing: border-box;
+    padding: 10px;
+}
 
-}
-.curso-main{
-    margin: 1.2rem 0;
-}
-.curso-ver{
-    text-align: center;
-}

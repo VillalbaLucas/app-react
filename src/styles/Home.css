@@ -1,14 +1,3 @@
-.content{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-}
-.titulo{
-    padding: 2.5rem 0;
-    margin-bottom: 2rem;
-    text-align: center;
-    background-color: #c1eaff;
-}
 h1{
     font-size: 3.5em;
     background-color: transparent;
@@ -16,15 +5,31 @@ h1{
 b{
     background-color: transparent;
 }
+main {
+    height: 70%;
+}
+footer {
+    justify-self: end;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.titulo{
+    height: 20%;
+    text-align: center;
+    background-color: #c1eaff;
+}
 .content-descripcion{
     background-color: transparent;
     margin: 1.5rem 0;
     font-size: 20px;
 }
 .content-cursos{
+    padding: 20px;
     display: flex;
-    justify-content: center;
-    gap: 2.5rem;
-    width: 100%;
-    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
 }
